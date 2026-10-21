@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#080808" />
-    <meta name="description" content="Георгий Рожин — фотограф. Свет. Человек. Момент." />
-    <title>GRphoto — Георгий Рожин</title>
+    <meta name="description" content="Георгий Рожин — фотограф в Челябинске. Съёмка с выездом на любую локацию города или в студии. Обсудить съёмку в Telegram." />
+    <title>GRphoto — фотограф Георгий Рожин · Челябинск</title>
     <link rel="icon" href="./public/favicon.svg" type="image/svg+xml" />
     <link rel="preload" href="./public/fonts/oswald-variable.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="./public/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
+    <a class="skip-link" href="#content">Перейти к содержимому</a>
     <div class="page">
       <header class="masthead">
         <div class="brand"><span>GR<span class="brand-light">photo</span><span class="brand-dot">.</span></span><span class="brand-caption">Георгий Рожин</span></div>
-        <div class="header-note"><span>Фотография / Визуальные истории</span><svg class="spark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 0c0 12-4 16-16 16 12 0 16 4 16 16 0-12 4-16 16-16C20 16 16 12 16 0Z" fill="currentColor" /></svg></div>
+        <nav class="main-nav" aria-label="Основная навигация"><a href="#locations">Локации</a><a href="#approach">Как всё проходит</a><a class="nav-contact" href="#contact">Обсудить съёмку <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></span></a></nav>
       </header>
-      <main>
+      <main id="content">
         <section class="hero" aria-labelledby="name">
+          <img class="hero-city" src="./public/images/chelyabinsk-river.jpg" alt="" width="1280" height="598" />
           <svg class="backdrop" viewBox="0 0 1400 440" preserveAspectRatio="none" aria-hidden="true"><text x="0" y="405" textLength="1400" lengthAdjust="spacingAndGlyphs">ФОТОГРАФ</text></svg>
           <figure class="portrait">
             <img src="./public/images/georgiy-portrait.png" alt="Георгий Рожин в чёрном пиджаке с красным боковым светом" width="1088" height="1448" fetchpriority="high" />
@@ -26,18 +28,89 @@
           <div class="introduction">
             <p class="greeting">Привет, я</p>
             <h1 id="name"><span>Георгий</span> <span>Рожин</span></h1>
-            <p class="role">Фотограф.<br />Свой взгляд на привычное.</p>
-            <p class="description">Замечать свет, чувствовать момент<br class="desktop-break" /> и видеть человека. Сохранять то,<br class="desktop-break" /> что хочется помнить.</p>
-            <p class="signature"><span class="small-cross" aria-hidden="true">+</span>Свет. Человек. Момент.</p>
+            <p class="role">Фотограф / Челябинск</p>
+            <p class="description">Твоя история — в любой точке города.<br class="desktop-break" /> Приеду на выбранную локацию<br class="desktop-break" /> или встретимся в студии.</p>
+            <a class="text-link hero-cta" href="https://t.me/+79088260236" target="_blank" rel="noopener noreferrer">Обсудить съёмку <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></span></a>
+            <p class="signature"><span class="small-cross" aria-hidden="true">+</span>Выезд по всему Челябинску</p>
           </div>
           <aside class="side-note" aria-label="Авторский подход">
             <svg class="note-icon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width=".7"/><path d="M20 9c0 8-3 11-11 11 8 0 11 3 11 11 0-8 3-11 11-11-8 0-11-3-11-11Z" fill="currentColor"/></svg>
-            <p>За каждым кадром —<br />свой взгляд.<br /><span>Своя история.</span></p>
+            <p>Челябинск.<br />Знакомые места.<br /><span>Новый взгляд.</span></p>
           </aside>
           <span class="image-label" lang="en">Georgiy Rozhin / Portrait</span>
         </section>
+        <div class="hero-footer hero-divider"><span>55° с. ш. / 61° в. д.</span><span class="footer-center">Город. Студия. Твоя история.</span><a href="#locations">Исследовать локации <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16M5 13l7 7 7-7" stroke="currentColor" stroke-width="1.5" /></svg></span></a></div>
+
+        <section class="section locations" id="locations" aria-labelledby="locations-title">
+          <div class="section-top"><span class="section-index">01 / Место встречи</span><span class="section-tag">Челябинск, Россия</span></div>
+          <div class="section-heading"><h2 id="locations-title">Город — твоя<br /><span class="red">декорация.</span></h2><p class="section-intro">Не обязательно уезжать далеко за хорошим кадром. Любимая улица, набережная или тихий парк — выберем место, в котором тебе комфортно.</p></div>
+          <div class="location-grid">
+            <figure class="location-card location-river">
+              <div class="location-image"><img src="./public/images/chelyabinsk-river.jpg" alt="Набережная реки Миасс в Челябинске на закате" width="1280" height="598" loading="lazy" /><span class="location-number" aria-hidden="true">01</span></div>
+              <figcaption><div><h3>Набережная Миасса</h3><p>Вода, отражения и вечерний свет.</p></div><a class="location-arrow" href="https://yandex.ru/maps/?text=%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B5%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%B0%D1%81%D1%81%2C%20%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA" target="_blank" rel="noopener noreferrer" aria-label="Набережная Миасса — открыть на карте" title="Открыть на карте"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></a></figcaption>
+            </figure>
+            <figure class="location-card">
+              <div class="location-image"><img src="./public/images/chelyabinsk-kirovka.jpg" alt="Пешеходная Кировка в Челябинске с декоративными огнями над улицей" width="1280" height="795" loading="lazy" /><span class="location-number" aria-hidden="true">02</span></div>
+              <figcaption><div><h3>Кировка</h3><p>Ритм улицы и характер города.</p></div><a class="location-arrow" href="https://yandex.ru/maps/?text=%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0%2C%20%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA" target="_blank" rel="noopener noreferrer" aria-label="Кировка — открыть на карте" title="Открыть на карте"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></a></figcaption>
+            </figure>
+            <figure class="location-card">
+              <div class="location-image"><img src="./public/images/chelyabinsk-park.jpg" alt="Парк имени Гагарина в Челябинске: аллеи, зелень и город на горизонте" width="1280" height="720" loading="lazy" /><span class="location-number" aria-hidden="true">03</span></div>
+              <figcaption><div><h3>Парк Гагарина</h3><p>Больше воздуха. Меньше суеты.</p></div><a class="location-arrow" href="https://yandex.ru/maps/?text=%D0%9F%D0%B0%D1%80%D0%BA%20%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B0%2C%20%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA" target="_blank" rel="noopener noreferrer" aria-label="Парк Гагарина — открыть на карте" title="Открыть на карте"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></a></figcaption>
+            </figure>
+          </div>
+          <div class="location-footnote"><p>Это только ориентиры. Приеду на <strong>любую выбранную локацию в Челябинске.</strong></p><a href="#photo-credits">Городские фотографии: авторы и лицензии <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></a></div>
+        </section>
+
+        <section class="section formats" id="formats" aria-labelledby="formats-title">
+          <div class="section-top"><span class="section-index">02 / Твой формат</span><span class="section-tag">В центре кадра — ты</span></div>
+          <div class="format-layout">
+            <div class="format-heading"><h2 id="formats-title">В своём<br /><span class="red">месте.</span></h2><p>Без привязки к одному фону.<br />С вниманием к тебе.</p><svg class="format-star" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0c0 38-12 50-50 50 38 0 50 12 50 50 0-38 12-50 50-50C62 50 50 38 50 0Z" fill="currentColor" /></svg></div>
+            <div class="format-list">
+              <article class="format-row"><span class="row-number">01</span><div><h3>В городе</h3><p>Прогулка с камерой по знакомым улицам или новая точка на карте. Ты выбираешь настроение — вместе найдём подходящий свет и фон.</p><span class="format-label">Любая локация Челябинска</span></div><span class="row-symbol" aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></span></article>
+              <article class="format-row"><span class="row-number">02</span><div><h3>В студии</h3><p>Когда хочется спокойной обстановки, лаконичного фона или определённого света. Подберём студию под идею и заранее обсудим её аренду.</p><span class="format-label">Пространство под твою идею</span></div><span class="row-symbol" aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></span></article>
+              <article class="format-row"><span class="row-number">03</span><div><h3>По твоему сценарию</h3><p>Есть место, образ или референс, который давно хочется повторить? Покажи его — обсудим, как превратить задумку в съёмку.</p><span class="format-label">Начнём с разговора</span></div><span class="row-symbol" aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></span></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="city-banner" aria-labelledby="city-title">
+          <img src="./public/images/chelyabinsk-river.jpg" alt="" width="1280" height="598" loading="lazy" />
+          <div class="banner-overlay"></div>
+          <span class="banner-kicker">GRphoto / Южный Урал</span>
+          <div class="banner-content"><p>Знакомый город.<br />Незнакомый ракурс.</p><h2 id="city-title">Челябинск<span class="red">.</span></h2></div>
+          <a href="https://t.me/+79088260236" class="banner-link" target="_blank" rel="noopener noreferrer">Выбрать место вместе <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></span></a>
+        </section>
+
+        <section class="section process" id="approach" aria-labelledby="process-title">
+          <div class="section-top"><span class="section-index">03 / От идеи до кадра</span><span class="section-tag">Просто начни</span></div>
+          <div class="section-heading"><h2 id="process-title">Сначала —<br /><span class="red">знакомство.</span></h2><p class="section-intro">Не нужно приходить с готовым сценарием. Достаточно желания сохранить этот момент своей жизни.</p></div>
+          <ol class="process-grid">
+            <li><span class="step-number">01</span><h3>Напиши</h3><p>Расскажи, какую съёмку хочешь. Можно начать с пары слов или прислать понравившийся референс.</p></li>
+            <li><span class="step-number">02</span><h3>Выберем место</h3><p>Город или студия, настроение, образ и удобная дата. Стоимость и детали согласуем до съёмки.</p></li>
+            <li><span class="step-number">03</span><h3>Встретимся в кадре</h3><p>На месте найдём свет, попробуем разные ракурсы и дадим истории сложиться в своём темпе.</p></li>
+          </ol>
+        </section>
+
+        <section class="section questions" aria-labelledby="questions-title">
+          <div class="questions-heading"><span class="section-index">04 / До встречи</span><h2 id="questions-title">Пара<br /><span class="red">вопросов.</span></h2></div>
+          <div class="faq-list">
+            <details><summary>Можно выбрать свою локацию?<span aria-hidden="true">+</span></summary><p>Да. Приеду на выбранную точку в пределах Челябинска или встретимся в студии. Перед съёмкой обсудим, какой там свет и подходит ли место под задумку.</p></details>
+            <details><summary>А если я не умею позировать?<span aria-hidden="true">+</span></summary><p>Это не обязательное условие. Начнём спокойно, попробуем простые движения и найдём ракурсы, в которых тебе комфортно.</p></details>
+            <details><summary>Сколько стоит съёмка?<span aria-hidden="true">+</span></summary><p>Напиши об идее, месте и желаемом формате — обсудим стоимость и объём съёмки. Если выбираем студию, её аренду также согласуем заранее.</p></details>
+            <details><summary>Что написать в первом сообщении?<span aria-hidden="true">+</span></summary><p>Например: «Привет! Хочу съёмку на набережной» или «Давай обсудим портрет в студии». Если уже есть дата или референсы — присылай их тоже.</p></details>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-title">
+          <div class="contact-top"><span class="section-index">05 / Начнём с сообщения</span><span class="contact-location"><span aria-hidden="true">+</span> Челябинск / Выезд по городу</span></div>
+          <div class="contact-layout"><h2 id="contact-title">Твой город.<br />Твоя история<span>.</span></h2><div class="contact-actions"><p>Есть идея? Или пока только желание<br />оказаться по другую сторону камеры?<br />Давай обсудим.</p><a class="contact-button" href="https://t.me/+79088260236" target="_blank" rel="noopener noreferrer">Написать в Telegram <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.5" /></svg></span></a><div class="contact-number"><span>+7 908 826-02-36</span><button type="button" id="copy-phone" aria-label="Скопировать номер телефона">Скопировать</button></div><span class="copy-status" id="copy-status" role="status" aria-live="polite"></span></div></div>
+        </section>
       </main>
-      <footer class="hero-footer"><span lang="en">An independent perspective</span><span class="footer-center">Искусство замечать</span><span class="footer-monogram" lang="en">GR / PHOTO</span></footer>
+      <footer class="site-footer">
+        <div class="footer-main"><a class="footer-brand" href="#content" aria-label="GRphoto — в начало страницы">GR<span>photo.</span></a><span>Георгий Рожин / Фотограф / Челябинск</span><a href="#content">Наверх <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20V4M5 11l7-7 7 7" stroke="currentColor" stroke-width="1.5" /></svg></a></div>
+        <details class="photo-credits" id="photo-credits"><summary>Авторы фотографий города <span aria-hidden="true">+</span></summary><div class="credits-body"><p>Изображения Челябинска показывают возможные локации и не являются портфолио Георгия Рожина. При отображении применяются монохромный фильтр, затемнение и кадрирование.</p><ul><li>Набережная Миасса: <a href="https://commons.wikimedia.org/wiki/File:Chelyabinsk_Miass_River.jpg" target="_blank" rel="noopener noreferrer">Kirovles / Wikimedia Commons</a> — <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.</li><li>Кировка: <a href="https://commons.wikimedia.org/wiki/File:Pedestrian_street_%C2%ABKirovka%C2%BB_in_Chelyabinsk_(June_2025)_-_0_11.jpg" target="_blank" rel="noopener noreferrer">Vyacheslav Bukharov / Wikimedia Commons</a> — <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.</li><li>Парк Гагарина: <a href="https://commons.wikimedia.org/wiki/File:Central_Park_named_after_Yuri_Gagarin_(Chelyabinsk)_-_13.jpg" target="_blank" rel="noopener noreferrer">Vyacheslav Bukharov / Wikimedia Commons</a> — <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.</li></ul><p>Исходные изображения и их отображаемые адаптации доступны на условиях CC BY-SA 4.0. Авторский портрет подготовлен по фотографии Георгия.</p></div></details>
+      </footer>
+      <script type="module" src="./src/main.js"></script>
     </div>
   </body>
 </html>
