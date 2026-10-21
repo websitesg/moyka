@@ -3,55 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#101010" />
-    <meta name="description" content="Георгий Рожин — фотограф. Внимание к свету, человеку и моменту." />
-    <title>Георгий Рожин — фотограф</title>
+    <meta name="theme-color" content="#080808" />
+    <meta name="description" content="Георгий Рожин — фотограф. Свет. Человек. Момент." />
+    <title>GRphoto — Георгий Рожин</title>
     <link rel="icon" href="./public/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./public/fonts/oswald-variable.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="./public/fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
     <div class="page">
       <header class="masthead">
-        <span class="wordmark" aria-label="Георгий Рожин">gr<span class="wordmark-dot">.</span></span>
-        <span class="masthead-label">Независимый взгляд</span>
-        <span class="profession" lang="en">Photographer</span>
+        <div class="brand"><span>GR<span class="brand-light">photo</span><span class="brand-dot">.</span></span><span class="brand-caption">Георгий Рожин</span></div>
+        <div class="header-note"><span>Фотография / Визуальные истории</span><svg class="spark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 0c0 12-4 16-16 16 12 0 16 4 16 16 0-12 4-16 16-16C20 16 16 12 16 0Z" fill="currentColor" /></svg></div>
       </header>
-
       <main>
         <section class="hero" aria-labelledby="name">
-          <div class="introduction">
-            <p class="eyebrow"><span class="short-rule" aria-hidden="true"></span>Свет. Человек. Момент.</p>
-            <h1 id="name"><span>Георгий</span> <span class="surname">Рожин<span class="name-period">.</span></span></h1>
-            <div class="statement">
-              <svg class="statement-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" stroke-width="1.2" /></svg>
-              <p>Замечать простое.<br />Видеть по-своему.</p>
-            </div>
-          </div>
-
-          <figure class="photo-space" aria-label="Место для будущей авторской фотографии">
-            <!-- Replace .empty-frame with an img when an original photograph is available.
-                 Keep its aspect ratio and supply a meaningful alt description. -->
-            <div class="empty-frame">
-              <div class="frame-heading" aria-hidden="true"><span>01</span><span>В поиске кадра</span></div>
-              <span class="corner corner-tl" aria-hidden="true"></span>
-              <span class="corner corner-tr" aria-hidden="true"></span>
-              <span class="corner corner-bl" aria-hidden="true"></span>
-              <span class="corner corner-br" aria-hidden="true"></span>
-              <div class="viewfinder" aria-hidden="true"><span></span></div>
-              <p class="frame-thought">Всё начинается<br />со взгляда.</p>
-              <span class="frame-bottom" aria-hidden="true">Смотреть. Чувствовать. Сохранять.</span>
-            </div>
-            <figcaption><span class="caption-dot" aria-hidden="true"></span>Место для будущей фотографии</figcaption>
+          <svg class="backdrop" viewBox="0 0 1400 440" preserveAspectRatio="none" aria-hidden="true"><text x="0" y="405" textLength="1400" lengthAdjust="spacingAndGlyphs">ФОТОГРАФ</text></svg>
+          <figure class="portrait">
+            <img src="./public/images/georgiy-portrait.png" alt="Георгий Рожин в чёрном пиджаке с красным боковым светом" width="1088" height="1448" fetchpriority="high" />
           </figure>
+          <div class="introduction">
+            <p class="greeting">Привет, я</p>
+            <h1 id="name"><span>Георгий</span> <span>Рожин</span></h1>
+            <p class="role">Фотограф.<br />Свой взгляд на привычное.</p>
+            <p class="description">Замечать свет, чувствовать момент<br class="desktop-break" /> и видеть человека. Сохранять то,<br class="desktop-break" /> что хочется помнить.</p>
+            <p class="signature"><span class="small-cross" aria-hidden="true">+</span>Свет. Человек. Момент.</p>
+          </div>
+          <aside class="side-note" aria-label="Авторский подход">
+            <svg class="note-icon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width=".7"/><path d="M20 9c0 8-3 11-11 11 8 0 11 3 11 11 0-8 3-11 11-11-8 0-11-3-11-11Z" fill="currentColor"/></svg>
+            <p>За каждым кадром —<br />свой взгляд.<br /><span>Своя история.</span></p>
+          </aside>
+          <span class="image-label" lang="en">Georgiy Rozhin / Portrait</span>
         </section>
       </main>
-
-      <footer class="hero-footer">
-        <span lang="en">Georgiy Rozhin</span>
-        <span class="footer-note">Фотография как способ видеть</span>
-        <span class="footer-symbol" aria-hidden="true">[ GR ]</span>
-      </footer>
+      <footer class="hero-footer"><span lang="en">An independent perspective</span><span class="footer-center">Искусство замечать</span><span class="footer-monogram" lang="en">GR / PHOTO</span></footer>
     </div>
   </body>
 </html>
