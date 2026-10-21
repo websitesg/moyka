@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Young Man in Eyeglasses Standing on the Sidewalk with a Cup of Coffee during a Snowfall  · Free Stock Photo",
+    "description": "A man in winter attire holding coffee on a snowy city street, captured in black and white.",
+    "contentUrl": "https://images.pexels.com/photos/15397424/pexels-photo-15397424/free-photo-of-young-man-in-eyeglasses-standing-on-the-sidewalk-with-a-cup-of-coffee-during-a-snowfall.jpeg",
+    "license": "https://www.pexels.com/license/",
+    "acquireLicensePage": "https://www.pexels.com/photo/young-man-in-eyeglasses-standing-on-the-sidewalk-with-a-cup-of-coffee-during-a-snowfall-15397424/",
+    "creator": {
+      "@type": "Person",
+      "name": "David Guerrero",
+      "url": "https://www.pexels.com/@davidguerrero/",
+      "interactionStatistic": [
+        {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "ViewAction"
+          },
+          "userInteractionCount": 61282280
+        },
+        {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "DownloadAction"
+          },
+          "userInteractionCount": 162311
+        }
+      ]
+    },
+    "localFile": "reference-city.jpg"
+  },
+  {
+    "name": "Brunette in Black and White · Free Stock Photo",
+    "description": "Striking black and white portrait capturing a woman amidst pedestrians.",
+    "contentUrl": "https://images.pexels.com/photos/24960299/pexels-photo-24960299/free-photo-of-brunette-in-black-and-white.jpeg",
+    "license": "https://www.pexels.com/license/",
+    "acquireLicensePage": "https://www.pexels.com/photo/brunette-in-black-and-white-24960299/",
+    "creator": {
+      "@type": "Person",
+      "name": "Dmitry Ovsyannikov",
+      "url": "https://www.pexels.com/@dmitry-ovsyannikov-271243380/",
+      "interactionStatistic": [
+        {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "ViewAction"
+          },
+          "userInteractionCount": 15825321
+        },
+        {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "DownloadAction"
+          },
+          "userInteractionCount": 53791
+        }
+      ]
+    },
+    "localFile": "reference-walk.jpg"
+  },
+  {
+    "name": "Woman Wearing Pink Collared Half-sleeved Top · Free Stock Photo",
+    "description": "Portrait of a young woman posing elegantly in a studio with a pink background.",
+    "contentUrl": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg",
+    "license": "https://www.pexels.com/license/",
+    "acquireLicensePage": "https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/",
+    "creator": {
+      "@type": "Person",
+      "name": "Moose Photos",
+      "url": "https://www.pexels.com/@moose-photos-170195/",
+      "interactionStatistic": [
+        {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "ViewAction"
+          },
+          "userInteractionCount": 948475855
+        },
+        {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "DownloadAction"
+          },
+          "userInteractionCount": 3162177
+        }
+      ]
+    },
+    "localFile": "reference-studio.jpg"
+  }
+]
